@@ -1,0 +1,58 @@
+<ProductWrapper>
+  <products>
+    <products className="com.poit.shop.entity.Kettle">
+      <price>100</price>
+      <manufacturer>Vityaz</manufacturer>
+      <model>abc-120</model>
+      <color>inti</color>
+      <volume>12.0</volume>
+      <bottomDiameter>30.0</bottomDiameter>
+    </products>
+    <products className="com.poit.shop.entity.Kettle">
+      <price>1300</price>
+      <manufacturer>Pr</manufacturer>
+      <model>abc-345</model>
+      <color>red</color>
+      <volume>1.0</volume>
+      <bottomDiameter>2.0</bottomDiameter>
+    </products>
+    <products className="com.poit.shop.entity.Kettle">
+      <price>234</price>
+      <manufacturer>Georgia</manufacturer>
+      <model>terra</model>
+      <color>blue</color>
+      <volume>3.0</volume>
+      <bottomDiameter>4.0</bottomDiameter>
+    </products>
+    <products className="com.poit.shop.entity.Kettle">
+      <price>50</price>
+      <manufacturer>Someone</manufacturer>
+      <model>Something</model>
+      <color>green</color>
+      <volume>2.0</volume>
+      <bottomDiameter>1.0</bottomDiameter>
+    </products>
+    <products className="com.poit.shop.entity.Fridge">
+      <price>324</price>
+      <manufacturer>Horizont</manufacturer>
+      <model>r-111</model>
+      <width>0</width>
+      <height>0</height>
+      <weight>0</weight>
+      <freezerCapacity>0.0</freezerCapacity>
+      <overallCapacity>0.0</overallCapacity>
+      <powerConsumption>0.0</powerConsumption>
+    </products>
+    <products className="com.poit.shop.entity.Oven">
+      <price>145</price>
+      <manufacturer/>
+      <model/>
+      <width>54</width>
+      <height>453</height>
+      <depth>56</depth>
+      <weight>56</weight>
+      <capacity>444.0</capacity>
+      <powerConsumption>44.0</powerConsumption>
+    </products>
+  </products>
+</ProductWrapper>
