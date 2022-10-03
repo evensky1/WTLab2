@@ -15,4 +15,9 @@ public class KettleServiceImpl implements KettleService {
     public List<Kettle> getAll() {
         return kettleRepository.findAll();
     }
+
+    @Override
+    public List<Kettle> getAllByColor(String color) {
+        return kettleRepository.findAllByColor(color);
+    }
 }

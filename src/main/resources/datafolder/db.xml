@@ -4,7 +4,7 @@
       <price>100</price>
       <manufacturer>Vityaz</manufacturer>
       <model>abc-120</model>
-      <color>inti</color>
+      <color>red</color>
       <volume>12.0</volume>
       <bottomDiameter>30.0</bottomDiameter>
     </products>
@@ -45,8 +45,8 @@
     </products>
     <products className="com.poit.shop.entity.Oven">
       <price>145</price>
-      <manufacturer/>
-      <model/>
+      <manufacturer></manufacturer>
+      <model></model>
       <width>54</width>
       <height>453</height>
       <depth>56</depth>

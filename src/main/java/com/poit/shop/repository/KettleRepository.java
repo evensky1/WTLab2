@@ -5,4 +5,6 @@ import java.util.List;
 
 public interface KettleRepository {
     List<Kettle> findAll();
+
+    List<Kettle> findAllByColor(String color);
 }
