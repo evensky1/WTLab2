@@ -4,9 +4,7 @@ import com.poit.shop.dao.ProductDAO;
 import com.poit.shop.dao.exception.DAOException;
 import com.poit.shop.entity.Kettle;
 import com.poit.shop.entity.criteria.Criteria;
-import com.poit.shop.entity.criteria.SearchCriteria.KettleCriteria;
 import com.poit.shop.repository.KettleRepository;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
@@ -29,7 +27,7 @@ public class KettleRepositoryImpl implements KettleRepository {
     @Override
     public List<Kettle> findAllByColor(String color) {
         var kettleCriteria = new Criteria(Kettle.class.getSimpleName());
-        kettleCriteria.add(KettleCriteria.COLOR.toString().toLowerCase(Locale.ROOT), color);
+        kettleCriteria.add("color", color);
         try {
             return productDAO.find(kettleCriteria).stream().map(Kettle.class::cast).toList();
         } catch (DAOException e) {
